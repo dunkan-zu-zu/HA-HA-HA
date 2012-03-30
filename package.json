@@ -1,0 +1,21 @@
+{
+  "name": "HA-HA-HA",
+  "description": "Первая заливка:)",
+  "version": "0.0.1",
+  "homepage": "http://localhost:8888",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dunkan-zu-zu/HA-HA-HA.git"
+  },
+  "author": "duncan-zu-zu",
+  "main": "./index.js",
+  "engines": {
+    "node": ">=0.6.1"
+  },
+  "dependencies": {
+    "express":              "2.5.8",
+    "app":                  "0.1.0",
+	"jade":			"0.22.0"		
+  },
+  "devDependencies": {}
+}

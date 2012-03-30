@@ -6,18 +6,18 @@ var jade=require('jade');
 
 http.get('*',function(req,res){
 
-    Example=url.parse(req.url,true).query
+    ResponseParams=url.parse(req.url,true).query
    jade.renderFile(__dirname+'/index.jade', {
         options: 'here'
     }, function (err, html) {
 
         console.log(err);
-        res.send(html)
+        res.send(html);
 
     });
 
 
-    console.log(Example);
+    console.log('Ответ');
 });
 http.listen(3000);
 console.log('Сервер запущен');
